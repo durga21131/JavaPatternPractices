@@ -3,7 +3,6 @@ public class Pyramid {
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter no of rows of pyramid");
 		int row=sc.nextInt();
 		for(int i=1;i<=row;i++) {
 			// for spaces
