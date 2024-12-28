@@ -4,7 +4,6 @@ public class halfPyramidRight {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter no of rows or size of Half Right Pyramid(for better experiance you can enter 3 to 10) :");
 		int row = sc.nextInt();
 		// i for rows
 		// j for columns
