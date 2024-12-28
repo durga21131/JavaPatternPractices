@@ -1,5 +1,3 @@
-package Patterns;
-
 import java.util.Scanner;
 
 public class LoveSymbol {
@@ -8,7 +6,6 @@ public class LoveSymbol {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of the heart: ");
         int size = sc.nextInt();
-
         // Upper part of the heart
         for (int i = size / 2; i <= size; i += 2) {
             // Left spaces
@@ -29,8 +26,7 @@ public class LoveSymbol {
             }
             System.out.println();
         }
-
-        // Lower part of the heart
+         // Lower part of the heart
         for (int i = size; i >= 1; i--) {
             // Leading spaces
             for (int j = size - i; j > 0; j--) {
