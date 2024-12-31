@@ -7,9 +7,12 @@ public class EmptyRectangle {
 		int input = sc.nextInt();
 		for (int i = 1; i <= input; i++) {
 			for (int j = 1; j <= input; j++) {
+				// for stars
 				if (i == 1 || j == 1 || i == input || j == input) {
 					System.out.print("*");
-				} else {
+				} 
+				// for spaces
+				else {
 					System.out.print(" ");
 				}
 			}
