@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class reverseHalfPyramidRight {
     public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter no of rows or size of  Reverse Half Pyramid Right :");
 		int row = sc.nextInt();
