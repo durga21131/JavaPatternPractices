@@ -38,7 +38,6 @@ public class LoveSymbol {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }
