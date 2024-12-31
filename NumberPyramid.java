@@ -6,6 +6,7 @@ public class NumberPyramid {
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		for (int i = 1; i <= input; i++) {
+			// for spaces
 			for (int j = 1; j <= input - i; j++) {
 				System.out.print(" " + " ");
 			}

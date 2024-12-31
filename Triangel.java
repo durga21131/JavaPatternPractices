@@ -11,8 +11,9 @@ public class Triangel {
 			 if(i==input || i+j==input+1 || j-i==input-1 ) {
 				 System.out.print("*");
 			 }
+			 // for spaces
 			 else {
-				// for spaces
+				
 				 System.out.print(" ");
 			 }
 		 }System.out.println();
