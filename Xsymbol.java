@@ -7,11 +7,13 @@ public class Xsymbol {
 		int input=sc.nextInt();
 		for(int i=1;i<=input;i++) {
 			for(int j=1; j<=input;j++) {
-				// for stars
+				// For Stars
+				
 				if(i==j || i+j==input+1) {
 					System.out.print("*");
 				}else {
-					// for spaces
+					// For Spaces
+
 					System.out.print(" ");
 				}
 			}System.out.println();
