@@ -36,6 +36,7 @@ public class LoveSymbol {
             for (int j = 1; j <= (i * 2) - 1; j++) {
                 System.out.print("*");
             }
+            // for linebreak
             System.out.println();
         }
         sc.close();
