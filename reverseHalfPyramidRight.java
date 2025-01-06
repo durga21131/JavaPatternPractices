@@ -15,6 +15,8 @@ public class reverseHalfPyramidRight {
 			for (int j = 0; j <= row - i; j++) {
 				System.out.print("*");
 			}
+			
+			// for line break
 			System.out.println();
 		}
 	}
