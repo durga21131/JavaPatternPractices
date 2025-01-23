@@ -16,13 +16,5 @@ public class halfPyramidLeft {
         	}System.out.println();
         }
 	}
-		public void  m() {
-        for(int i=1;i<=row;i++) {
-        	for(int j=1;j<=row;j++) {
-        		if(j<=i) {
-        			System.out.print("*");
-        		}
-        	}System.out.println();
-        }
-		}
+		
 }
