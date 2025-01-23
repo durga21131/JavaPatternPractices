@@ -10,11 +10,7 @@ public class halfPyramidLeft {
         int row=sc.nextInt();
         // i for rows
         // j for columns
-        for (int i=1; i<=row;i++){
-        	for(int j=1;j<=i;j++) {
-        		System.out.print("*");
-        	}System.out.println();
-        }
+        
 	}
 		public void  m() {
         for(int i=1;i<=row;i++) {
